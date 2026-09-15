@@ -1,5 +1,5 @@
-import HelloWorld from './HelloWorld';
-import HelloNome from './HelloNome';
+import HelloWorld from '@/components/HelloWorld';
+import HelloNome from '@/components/HelloNome';
 
 export default function HomeWorld(){
   return(
