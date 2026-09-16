@@ -12,3 +12,10 @@
 
 `Se A for falsy → retorna A`
 `Se A for truthy → retorna B`
+
+## Explicação RestProps.js
+
+- `tipo = 'info'` é um valor padrão, caso não seja fornecido um valor para ele, considere que `tipo` é `info`;
+- `children` é uma prop especial do React, o React vai disponibilizar o conteúdo através dessa prop;
+- `..rest` pega todas as props que não foram retiradas anteriormente e coloque dentro de `rest`;
+- `alert-${tipo}` funciona assim, se `tipo` for igual a `'info'` = `alert-info`, está criando dinamicamente o nome da classe CSS.

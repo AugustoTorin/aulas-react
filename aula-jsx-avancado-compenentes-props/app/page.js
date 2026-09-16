@@ -1,6 +1,8 @@
 import Hello from '@/components/Teste';
 import ValorZero from '@/components/Condicionais';
 import Atributos from '@/components/Atributos';
+import App from '@/components/BotaoGrande';
+import Alerta from '@/components/RestProps';
 
 export default function Home(){
   return(
@@ -9,13 +11,14 @@ export default function Home(){
         <Hello />
       </div>
 
-      <>
-        <ValorZero />
-      </>
+      <ValorZero />
+      
+      <Atributos />
 
-      <>
-        <Atributos />
-      </>
+      <App />
+
+      <Alerta tipo="warning" id="aviso">Cuidado!</Alerta>
+      <Alerta>Mensagem informativa</Alerta>
     </>
    
   );

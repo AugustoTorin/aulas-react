@@ -31,3 +31,14 @@
 /* Utilitários de imagem e espaçamento */
 .img-fluid { max-width: 100%; height: auto; }
 .mb-4 { margin-bottom: 1rem; }
+
+/* Borda caixa de texto input */
+.caixa{
+  /* border-width: 1px;
+  border-style: solid;
+  border-color: #2563eb; */
+
+  /* As três linhas acima equivalem a debaixo */
+
+  border: 2px solid #2563eb;
+}
