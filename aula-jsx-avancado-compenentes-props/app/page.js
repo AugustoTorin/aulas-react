@@ -1,5 +1,6 @@
-import Hello from './Teste';
-import ValorZero from './Condicionais';
+import Hello from '@/components/Teste';
+import ValorZero from '@/components/Condicionais';
+import Atributos from '@/components/Atributos';
 
 export default function Home(){
   return(
@@ -10,6 +11,10 @@ export default function Home(){
 
       <>
         <ValorZero />
+      </>
+
+      <>
+        <Atributos />
       </>
     </>
    
