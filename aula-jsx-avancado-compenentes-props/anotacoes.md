@@ -10,8 +10,8 @@
 
 ## Funcionamento &&
 
-`Se A for falsy → retorna A`
-`Se A for truthy → retorna B`
+Se A for falsy → retorna A
+Se A for truthy → retorna B
 
 ## Explicação RestProps.js
 
@@ -19,3 +19,9 @@
 - `children` é uma prop especial do React, o React vai disponibilizar o conteúdo através dessa prop;
 - `..rest` pega todas as props que não foram retiradas anteriormente e coloque dentro de `rest`;
 - `alert-${tipo}` funciona assim, se `tipo` for igual a `'info'` = `alert-info`, está criando dinamicamente o nome da classe CSS.
+
+## Comandos Importantes
+
+- `.map(...)` percorre os elementos de um array e executa uma função para cada elemento;
+- `key` é uma informação especial utilizada pelo React para identificar elementos de uma lista;
+- `"use client"` necessário quando o componente precisa de funcionalidades que dependem do navegador/interação do usuário;
