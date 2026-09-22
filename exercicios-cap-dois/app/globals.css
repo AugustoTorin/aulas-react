@@ -5,3 +5,24 @@
   border: 3px solid #0a19ec;
   border-radius: 9px;
 }
+
+*{
+  background-color: black;
+  color: white;
+}
+
+.badge-success{
+  color: green;
+  font-weight: 600;
+}
+
+.badge-warning{
+  color: red;
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.badge-info{
+  color: aqua;
+  font-weight: 500;
+}
