@@ -1,6 +1,8 @@
+const estilo = {padding: '8px', border: '3px solid #0a19ec', borderRadius: '9px'}
+
 function Card({children}){
     return(
-        <div className="card">{children}</div>
+        <div style={estilo}>{children}</div>
     );
 }
 
