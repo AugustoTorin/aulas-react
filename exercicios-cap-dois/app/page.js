@@ -2,6 +2,7 @@
 
 import GerarLista from "@/components/Array";
 import Badge from "@/components/Badge";
+import MensagemDinamica from "@/components/BadgeDinamico";
 import BotaoAcao from "@/components/BotaoAcao";
 import Card from "@/components/Card";
 import ListaId from "@/components/ListaId";
@@ -27,6 +28,8 @@ export default function Home(){
       <ListaId />
 
       <Badge tipo={'warning'} />
+
+      <MensagemDinamica />
     </>
   );
 }
