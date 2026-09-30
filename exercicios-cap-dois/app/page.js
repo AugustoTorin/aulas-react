@@ -5,6 +5,7 @@ import Badge from "@/components/Badge";
 import MensagemDinamica from "@/components/BadgeDinamico";
 import BotaoAcao from "@/components/BotaoAcao";
 import Card from "@/components/Card";
+import CardsDesafio from "@/components/HeaderBody";
 import ListaId from "@/components/ListaId";
 import App from "@/components/Saudacao";
 
@@ -30,6 +31,8 @@ export default function Home(){
       <Badge tipo={'warning'} />
 
       <MensagemDinamica />
+
+      <CardsDesafio />
     </>
   );
 }

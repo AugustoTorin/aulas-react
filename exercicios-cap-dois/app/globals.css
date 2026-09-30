@@ -20,3 +20,30 @@
   color: aqua;
   font-weight: 500;
 }
+
+.card-desafio {
+    width: 400px;
+    padding: 20px;
+    border: 1px solid #e451c4;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(224, 17, 17, 0.08);
+}
+
+.card-header {
+    padding-bottom: 12px;
+    border-bottom: 1px solid #0b0fe7;
+}
+
+.card-header h1 {
+    margin: 0;
+    font-size: 22px;
+}
+
+.card-body {
+    padding-top: 12px;
+}
+
+.card-body p {
+    margin: 0;
+    line-height: 1.5;
+}
