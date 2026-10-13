@@ -1,6 +1,35 @@
 @import "tailwindcss";
 
-*{
-  background-color: black;
-  color: white;
+/* Tema claro */
+body.light {
+    background-color: #f4f6f9;
+    color: #1f2937;
+    font-family: Arial, sans-serif;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+body.light button {
+    background-color: #2563eb;
+    color: #ffffff;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+/* Tema escuro */
+body.dark {
+    background-color: #111827;
+    color: #f9fafb;
+    font-family: Arial, sans-serif;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+body.dark button {
+    background-color: #374151;
+    color: #ffffff;
+    border: 1px solid #6b7280;
+    padding: 10px 16px;
+    border-radius: 6px;
+    cursor: pointer;
 }
